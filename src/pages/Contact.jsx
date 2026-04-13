@@ -108,8 +108,8 @@ export default function Contact() {
       {/* FAQ */}
       <section className="off-bg">
         <div className="w">
-          <Reveal><span className="eyebrow">Ofte stillede spørgsmål</span></Reveal>
-          <Reveal delay={50}><h2 className="sh" style={{ marginBottom: 40 }}>Hvad kan jeg hjælpe med<span className="ac">?</span></h2></Reveal>
+          <Reveal><span className="eyebrow">Hvad kan jeg hjælpe med</span></Reveal>
+          <Reveal delay={50}><h2 className="sh" style={{ marginBottom: 40 }}>Ofte stillede spørgsmål<span className="ac">?</span></h2></Reveal>
           <div className="tcg">
             {FAQ.map((f, i) => (
               <Reveal key={f.q} delay={i * 60}>
