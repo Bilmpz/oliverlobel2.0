@@ -82,7 +82,7 @@ const TESTIMONIALS = [
 export default function Home() {
   useEffect(() => {                           
     document.title = 'Oliver Løbel – Software Developer | React, TypeScript, C#'
-    window.scrollTo(0, 20)
+    window.scrollTo(0, 30)
   }, [])
 
   const [activeTab, setActiveTab] = useState('frontend')
@@ -116,7 +116,7 @@ export default function Home() {
             </div>
             <div className="photo-col">
               <div className="photo-fr">
-                <img src="/public/mig.png" alt="Oliver Løbel" loading="eager" />
+                <img src="/mig.png" alt="Oliver Løbel" loading="eager" />
               </div>
               <div className="photo-pip"><span className="dot" />Aktiv 2026</div>
             </div>

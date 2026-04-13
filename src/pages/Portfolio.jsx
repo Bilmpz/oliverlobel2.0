@@ -5,7 +5,7 @@ import Reveal from '../components/Reveal'
 
 const PROJECTS = [
   {
-    img: '/public/Kvitra.png',
+    img: '/Kvitra.png',
     date: 'April 2026',
     title: 'Kvitra – Under udvikling',
     desc: 'Det nyeste skud på stammen er Kvitra — en løsning under udvikling, der gør det nemmere at samle, organisere og finde digitale kvitteringer. Projektet har fokus på en enkel og brugervenlig oplevelse, hvor brugeren både kan få overblik over sit forbrug, følge sine forbrugsmønstre og sammenligne dem med andres.',
@@ -15,7 +15,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/itnemt.png',
+    img: '/itnemt.png',
     date: '12 april 2026',
     title: 'Website til Itnemt.dk',
     desc: 'ITNemt.dk er udviklet som en moderne og brugervenlig hjemmeside til en IT-support virksomhed med fokus på hurtig hjælp og tydelig kommunikation. Løsningen er bygget med henblik på at præsentere ydelser klart, skabe tillid og gøre det nemt for besøgende at tage kontakt.',
@@ -26,7 +26,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/BA- DMI.png',
+    img: '/BA- DMI.png',
     date: '06 april 2026',
     title: 'Hente live data fra DMI',
     desc: "Frontend og automatiseret dataløsning udviklet til at hente live målinger fra DMI's vejrstation 06154. Projektet indsamler temperatur- og luftfugtighedsdata, behandler dem i C# og publicerer dem i et simpelt dashboard, hvor brugeren nemt kan følge de nyeste observationer og downloade data som CSV.",
@@ -37,7 +37,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/kvickly.png',
+    img: '/kvickly.png',
     date: '31 marts 2026',
     title: 'Ansøgningsformular til Kvickly',
     desc: 'Ansøgningsside udviklet til Kvickly med fokus på en enkel og brugervenlig oplevelse for nye medarbejdere. Løsningen indeholder en præsentationsside om butikken samt en trin-for-trin ansøgningsformular, hvor ansøgeren besvarer relevante spørgsmål og sender sin ansøgning direkte til butikkens mail.',
@@ -48,7 +48,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/smile.png',
+    img: '/smile.png',
     date: '10 marts 2026',
     title: 'Onepage for smilebrandingstudio.dk',
     desc: 'Webside udviklet til Smile Branding Studio som en del af deres rebranding til Formatet ApS. Siden fungerer som en klar og brugervenlig overgang mellem det gamle og nye brand med fokus på enkel kommunikation og et roligt visuelt udtryk.',
@@ -59,7 +59,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/lommereger.png',
+    img: '/lommereger.png',
     date: '26 feb. 2026',
     title: 'Lommeregner på en webapplikation',
     desc: 'Webbaseret lommeregner udviklet med fokus på præcis inputhåndtering, beregningslogik og et responsivt design. Projektet demonstrerer arbejde med JavaScript-funktionalitet, eventhåndtering og brugerflade.',
@@ -70,7 +70,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/oliverlobel1.0.png',
+    img: '/oliverlobel1.0.png',
     date: '26 feb. 2026',
     title: 'Min Personlige Hjemmeside 1.0',
     desc: 'Webbaseret lommeregner udviklet med fokus på præcis inputhåndtering, beregningslogik og et responsivt design. Projektet demonstrerer arbejde med JavaScript-funktionalitet, eventhåndtering og brugerflade.',
@@ -80,7 +80,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/Stroemlybillede.png',
+    img: '/Stroemlybillede.png',
     date: '02 feb. 2026',
     title: 'Onepage for strømly.dk',
     desc: 'Onepage-website lavet som et hurtigt og enkelt landingpage-udkast for strømly.dk. Fokus på rent design, klar kommunikation og hurtig loading.',
@@ -91,7 +91,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/BPtech.png',
+    img: '/BPtech.png',
     date: '17 jan. 2026',
     title: 'Kundeplatform for BA Technologies',
     desc: 'Udkast til kundeplatform – en platform som via API-kald viser data fra målere. Bygget med JavaScript/TypeScript og sat op med Supabase. Stadig under udvikling.',
@@ -101,7 +101,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/pngegg.png',
+    img: '/pngegg.png',
     date: '22 dec. 2025',
     title: '1. Semester projekt',
     desc: 'Vores første semesterprojekt handler om at optimere boardingprocessen i fly. Vi undersøger, hvordan forskellige boardingstrategier påvirker tiden og effektiviteten ved ombordstigning. Projektet bygger på simulationer og modeller, hvor vi sammenligner metoder som random, back-to-front og WilMA.',
@@ -112,7 +112,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/aqualink.png',
+    img: '/aqualink.png',
     date: '12 dec. 2025',
     title: 'Forbrugerportal m. SQL',
     desc: 'Webapp i HTML, CSS og JavaScript, hvor brugere kan oprette sig og logge ind via en SQL-styret database. Projektet viser en simpel, men realistisk login-flow med fokus på struktur, sikkerhed og en god brugeroplevelse.',
@@ -122,7 +122,7 @@ const PROJECTS = [
     ],
   },
   {
-    img: '/public/sanne p.png',
+    img: '/sanne p.png',
     date: '1 sep. 2025',
     title: 'Website: Coach For Business',
     desc: 'Designet og udviklet en moderne, responsiv hjemmeside til Sanne Pedersen, hvor formålet er at give ledere og organisationer adgang til førsteklasses coaching og lederudvikling. Klar visuel kommunikation med fokus på ro, nærvær og lederskab.',
