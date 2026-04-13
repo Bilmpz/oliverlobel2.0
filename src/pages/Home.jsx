@@ -82,7 +82,7 @@ const TESTIMONIALS = [
 export default function Home() {
   useEffect(() => {                           
     document.title = 'Oliver Løbel – Software Developer | React, TypeScript, C#'
-    window.scrollTo(0, 10)
+    window.scrollTo(0, 20)
   }, [])
 
   const [activeTab, setActiveTab] = useState('frontend')
