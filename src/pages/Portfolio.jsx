@@ -1,4 +1,4 @@
-// ── PORTFOLIO ────────────────────────────────────────────────────────────────
+
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Reveal from '../components/Reveal'
@@ -22,7 +22,6 @@ const PROJECTS = [
     tags: ['React', 'JavaScript', 'CSS', 'Vite', 'Vercel', 'Nodemailer'],
     links: [
       { href: 'https://itnemt.vercel.app/', label: '↗ Live', primary: true },
-      { href: 'https://bilmpz.github.io/onepager/', label: '↗ GitHub', primary: false },
     ],
   },
   {
