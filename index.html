@@ -2,7 +2,8 @@
 <html lang="da">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Responsive viewport: prevents iOS auto-zoom, enables interactive-widget handling -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
   <title>Oliver Løbel – Software Developer | React, TypeScript, C#</title>
   <meta name="description" content="Oliver Løbel (Oliver Loebel) – software developer og softwarestuderende fra Aalborg Universitet. Specialiseret i React, TypeScript, C# og Supabase. Åben for freelanceopgaver og samarbejder." />
@@ -27,6 +28,11 @@
   <meta name="twitter:title" content="Oliver Løbel – Software Developer" />
   <meta name="twitter:description" content="Software developer fra Aalborg Universitet. React, TypeScript, C# og Supabase." />
   <meta name="twitter:image" content="https://oliverlobel.com/og-image.png" />
+
+  <!-- iOS Safari: prevents tap-to-zoom on double tap -->
+  <meta name="format-detection" content="telephone=no" />
+  <!-- Prevents iOS from adding its own dark mode styling -->
+  <meta name="color-scheme" content="dark" />
 
   <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -65,6 +71,157 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,600;12..96,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg:        #15130e;
+      --fg:        #f0ebe0;
+      --accent:    #c9a84c;       
+      --muted:     #7a7060;
+
+      --text-xs:   clamp(0.70rem, 1.5vw, 0.80rem);
+      --text-sm:   clamp(0.85rem, 1.8vw, 0.95rem);
+      --text-base: clamp(1.00rem, 2.0vw, 1.10rem);
+      --text-lg:   clamp(1.15rem, 2.5vw, 1.30rem);
+      --text-xl:   clamp(1.30rem, 3.0vw, 1.60rem);
+      --text-2xl:  clamp(1.60rem, 4.0vw, 2.20rem);
+      --text-3xl:  clamp(2.00rem, 5.5vw, 3.20rem);
+      --text-4xl:  clamp(2.60rem, 7.0vw, 4.50rem);
+
+      --space-xs:  clamp(0.25rem, 0.8vw,  0.50rem);
+      --space-sm:  clamp(0.50rem, 1.5vw,  1.00rem);
+      --space-md:  clamp(1.00rem, 3.0vw,  2.00rem);
+      --space-lg:  clamp(2.00rem, 5.0vw,  4.00rem);
+      --space-xl:  clamp(3.50rem, 8.0vw,  7.00rem);
+
+      --max-width: min(90rem, 92vw);
+
+      --safe-top:    env(safe-area-inset-top,    0px);
+      --safe-bottom: env(safe-area-inset-bottom, 0px);
+      --safe-left:   env(safe-area-inset-left,   0px);
+      --safe-right:  env(safe-area-inset-right,  0px);
+
+      --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+      --dur-fast: 150ms;
+      --dur-med:  300ms;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-size-adjust: 100%;
+      scrollbar-gutter: stable;
+    }
+
+    body {
+      min-height: 100dvh;           
+      overflow-x: hidden;
+      background-color: var(--bg);
+      color: var(--fg);
+      font-family: 'DM Sans', sans-serif;
+      font-size: var(--text-base);
+      line-height: 1.65;
+
+      padding-left:  var(--safe-left);
+      padding-right: var(--safe-right);
+
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    #root {
+      min-height: 100dvh;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Bricolage Grotesque', sans-serif;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      overflow-wrap: break-word; 
+    }
+
+    p, li, blockquote {
+      overflow-wrap: break-word;
+      hyphens: auto;
+    }
+
+    img, video, svg, canvas, iframe {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration-skip-ink: auto;
+    }
+
+    button,
+    [role="button"],
+    a[href],
+    label[for],
+    select,
+    input[type="submit"],
+    input[type="button"] {
+      min-height: 44px;
+      min-width: 44px;
+      touch-action: manipulation; 
+      cursor: pointer;
+    }
+
+
+    input,
+    textarea,
+    select {
+      font-family: inherit;
+      font-size: var(--text-base); 
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+
+    ::-webkit-scrollbar       { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb {
+      background: var(--muted);
+      border-radius: 99px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration:   0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration:  0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+        color: black;
+        font-size: 12pt;
+      }
+    }
+  </style>
 </head>
 <body>
   <div id="root"></div>
