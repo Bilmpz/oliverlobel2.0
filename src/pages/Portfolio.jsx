@@ -76,8 +76,9 @@ const PROJECTS = [
     desc: 'Webbaseret lommeregner udviklet med fokus på præcis inputhåndtering, beregningslogik og et responsivt design. Projektet demonstrerer arbejde med JavaScript-funktionalitet, eventhåndtering og brugerflade.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     links: [
+      { href: 'https://bilmpz.github.io/oliverlobel.com/', label: '↗ Live', primary: true },
       { href: 'https://github.com/Bilmpz/oliverlobel.com', label: '↗ GitHub', primary: false },
-    ],
+    ], 
   },
   {
     img: '/Stroemlybillede.png',
