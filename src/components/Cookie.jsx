@@ -12,14 +12,23 @@ export default function Cookie() {
     }
   }, [])
 
-  const accept = () => { localStorage.setItem('cookie_ok', 'yes'); setVisible(false) }
-  const decline = () => { localStorage.setItem('cookie_ok', 'no');  setVisible(false) }
+  const accept = () => {
+    localStorage.setItem('cookie_ok', 'yes')
+    setVisible(false)
+  }
+
+  const decline = () => {
+    localStorage.setItem('cookie_ok', 'no')
+    setVisible(false)
+  }
 
   return (
     <AnimatePresence>
       {visible && (
         <motion.div
           className="cookie-banner"
+          role="dialog"
+          aria-live="polite"
           initial={{ y: 120, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 120, opacity: 0 }}
@@ -29,6 +38,7 @@ export default function Cookie() {
             Vi bruger cookies til at analysere trafik via Google Analytics.{' '}
             <Link to="/privatpolitik">Læs mere</Link>
           </p>
+
           <div className="ck-bs">
             <button className="ck-y" onClick={accept}>Acceptér</button>
             <button className="ck-n" onClick={decline}>Afvis</button>

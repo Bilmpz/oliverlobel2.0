@@ -607,52 +607,92 @@ input[type="button"] {
 
 .cookie-banner {
   position: fixed;
-  bottom: max(20px, calc(var(--safe-bottom) + 12px));
-  left: 50%;
-  transform: translateX(-50%);
+  left: max(12px, calc(var(--safe-left) + 12px));
+  right: max(12px, calc(var(--safe-right) + 12px));
+  bottom: max(12px, calc(var(--safe-bottom) + 12px));
   z-index: 9999;
+
   background: var(--dark);
   border: 1px solid rgba(255,255,255,.1);
   border-radius: 14px;
-  padding: 18px 24px;
+  padding: 16px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
+
+  width: auto;
   max-width: 640px;
-  width: calc(100vw - 40px - var(--safe-left) - var(--safe-right));
+  margin: 0 auto;
+
   box-shadow: 0 16px 48px rgba(0,0,0,.35);
-  flex-wrap: wrap;
 }
 
-.ck-t { font-size: 13px; color: rgba(255,255,255,.55); font-weight: 300; flex: 1; line-height: 1.5; min-width: 180px; }
-.ck-t a { color: var(--accent); text-decoration: underline; }
-.ck-bs { display: flex; gap: 8px; flex-shrink: 0; }
+.ck-t {
+  font-size: 13px;
+  color: rgba(255,255,255,.65);
+  font-weight: 300;
+  line-height: 1.5;
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+.ck-t a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.ck-bs {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.ck-y,
+.ck-n {
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  white-space: nowrap;
+}
 
 .ck-y {
   background: var(--accent);
   color: #fff;
-  font-size: 13px;
   font-weight: 500;
-  padding: 8px 18px;
-  min-height: 44px;
-  border-radius: 8px;
-  cursor: pointer;
-  border: none;
-  touch-action: manipulation;
 }
 
 .ck-n {
   background: rgba(255,255,255,.08);
-  color: rgba(255,255,255,.45);
-  font-size: 13px;
-  padding: 8px 14px;
-  min-height: 44px;
-  border-radius: 8px;
-  cursor: pointer;
-  border: none;
-  touch-action: manipulation;
+  color: rgba(255,255,255,.7);
 }
 
+@media (max-width: 560px) {
+  .cookie-banner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+    padding: 14px;
+  }
+
+  .ck-bs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ck-y,
+  .ck-n {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .ck-bs {
+    grid-template-columns: 1fr;
+  }
+}
 
 
 .ph {
