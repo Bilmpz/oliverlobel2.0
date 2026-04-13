@@ -234,9 +234,9 @@ export default function Home() {
             </Reveal>
             <Reveal delay={100}>
               <div className="cta-deco">
-                <div className="cdi">oliver.lobel@yahoo.dk</div>
-                <div className="cdi">linkedin.com/in/oliver-løbel</div>
-                <div className="cdi">github.com/Bilmpz</div>
+              <a className="cdi" href="mailto:oliver.lobel@yahoo.dk" style={{ display: 'block', textDecoration: 'none', color: 'var(--accent)', fontWeight: 400 }}>oliver.lobel@yahoo.dk</a>
+              <a className="cdi" href="https://www.linkedin.com/in/oliver-l%C3%B8bel-6a7435369/" target="_blank" rel="noopener noreferrer" style={{ display: 'block', textDecoration: 'none', color: 'var(--accent)', fontWeight: 500 }}>Linkedin</a>
+              <a className="cdi" href="https://github.com/Bilmpz" target="_blank" rel="noopener noreferrer" style={{ display: 'block', textDecoration: 'none', color: 'var(--accent)', fontWeight: 500 }}>Github</a>
               </div>
             </Reveal>
           </div>
