@@ -26,7 +26,7 @@ const TABS = {
     label: ' Frontend',
     h3: 'Design der fungerer',
     p: 'Jeg bygger interfaces der er intuitive, responsive og hurtige. Fra ren HTML/CSS til React-komponenter - jeg fokuserer på detaljen og brugeroplevelsen.',
-    chips: ['HTML5','CSS3','JavaScript','TypeScript','React','Tailwind CSS'],
+    chips: ['HTML','CSS','JavaScript','TypeScript','React','Tailwind CSS'],
     cards: [
       { img:`${CDN}/react/react-original.svg`,      l:'React',      s:'Komponent-baseret UI' },
       { img:`${CDN}/css3/css3-original.svg`,        l:'CSS/Tailwind',s:'Responsivt design' },
