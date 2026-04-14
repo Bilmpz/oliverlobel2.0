@@ -76,7 +76,7 @@ const TESTIMONIALS = [
   { q: 'Oliver har bidraget med en unik og gennemtænkt idé til, hvordan butikken kan udvikles og forbedres. Jeg har kun positive ting at sige om hans arbejde.', name: 'Kevin Handberg', role: 'Varehuschef, Kvickly', initials: 'KH', color: '#c4875c' },
   { q: 'Da jeg ikke kendte Oliver på forhånd, var det en tillidssag - men det viste sig hurtigt at være det rigtige valg. Han agerer med integritet og eksekverer hurtigt.', name: 'Sanne Pedersen', role: 'Konsulent', initials: 'SP', color: '#4a8a74' },
   { q: 'Han har lavet en flot og professionel hjemmeside - moderne, overskuelig og brugervenlig. Høj kvalitet og sans for detaljen er tydelig.', name: 'Lukas Abel', role: 'IT-Virksomhed', initials: 'LA', color: '#5a5a6a' },
-  { q: 'Som studentermedhjælper viser Oliver en imponerende evne til hurtigt og selvstændigt at sætte sig ind i ny teknologi og omsætte idéer til handling.', name: 'Formatet ApS', role: 'SaaS-virksomhed', initials: 'F', color: '#7a4a8a' },
+  { q: 'Som studentermedhjælper viser Oliver en imponerende evne til hurtigt og selvstændigt at sætte sig ind i ny teknologi og omsætte idéer til handling.', name: 'Formatet ApS', role: 'Branding Agency', initials: 'F', color: '#7a4a8a' },
 ]
 
 export default function Home() {
