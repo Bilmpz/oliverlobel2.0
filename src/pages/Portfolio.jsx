@@ -40,7 +40,7 @@ const PROJECTS = [
     date: '06 april 2026',
     title: 'Hente live data fra DMI',
     desc: "Frontend og automatiseret dataløsning udviklet til at hente live målinger fra DMI's vejrstation 06154. Projektet indsamler temperatur- og luftfugtighedsdata, behandler dem i C# og publicerer dem i et simpelt dashboard, hvor brugeren nemt kan følge de nyeste observationer og downloade data som CSV.",
-    tags: ['C#', 'HTML', 'CSS', 'API Call'],
+    tags: ['C#', 'HTML', 'CSS', 'API Calls'],
     links: [
       { href: 'https://bilmpz.github.io/DMI/', label: '↗ Live', primary: true },
       { href: 'https://github.com/Bilmpz/DMI', label: '↗ GitHub', primary: false },
