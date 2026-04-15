@@ -21,7 +21,7 @@ const PROJECTS = [
     desc: 'GrønSpot er et dansk elspot-værktøj der viser realtidspriser på strøm time for time. Priserne hentes direkte fra Energi Data Services åbne API og præsenteres i et rent, moderne interface — ingen login, ingen abonnement, bare data.',
     tags: ['React', 'Typescript', 'Vercel', 'Api Calls'],
     links: [
-      { href: 'https://itnemt.vercel.app/', label: '↗ Live', primary: true },
+      { href: 'https://gr-nspot.vercel.app/today', label: '↗ Live', primary: true },
       { href: 'https://github.com/Bilmpz/Gr-nspot', label: '↗ GitHub', primary: false },
     ],
   },
@@ -32,7 +32,7 @@ const PROJECTS = [
     desc: 'ITNemt.dk er udviklet som en moderne og brugervenlig hjemmeside til en IT-support virksomhed med fokus på hurtig hjælp og tydelig kommunikation. Løsningen er bygget med henblik på at præsentere ydelser klart, skabe tillid og gøre det nemt for besøgende at tage kontakt.',
     tags: ['React', 'JavaScript', 'CSS', 'Vite', 'Vercel', 'Nodemailer'],
     links: [
-      { href: 'https://gr-nspot.vercel.app/today', label: '↗ Live', primary: true },
+      { href: 'https://itnemt.vercel.app/', label: '↗ Live', primary: true },
     ],
   },
   {
