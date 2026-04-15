@@ -22,6 +22,7 @@ const PROJECTS = [
     tags: ['React', 'Typescript', 'Vercel', 'Api Calls'],
     links: [
       { href: 'https://itnemt.vercel.app/', label: '↗ Live', primary: true },
+      { href: 'https://github.com/Bilmpz/Gr-nspot', label: '↗ GitHub', primary: false },
     ],
   },
   {
@@ -32,7 +33,6 @@ const PROJECTS = [
     tags: ['React', 'JavaScript', 'CSS', 'Vite', 'Vercel', 'Nodemailer'],
     links: [
       { href: 'https://gr-nspot.vercel.app/today', label: '↗ Live', primary: true },
-      { href: 'https://github.com/Bilmpz/Gr-nspot', label: '↗ GitHub', primary: false },
     ],
   },
   {
