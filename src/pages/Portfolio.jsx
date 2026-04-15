@@ -19,7 +19,7 @@ const PROJECTS = [
     date: '15 april 2026',
     title: 'Grønspot - Overblik energipriser',
     desc: 'GrønSpot er et dansk elspot-værktøj der viser realtidspriser på strøm time for time. Priserne hentes direkte fra Energi Data Services åbne API og præsenteres i et rent, moderne interface — ingen login, ingen abonnement, bare data.',
-    tags: ['React', 'Typescript', 'Vercel', 'Api Calls'],
+    tags: ['React', 'C#', 'Vercel', 'Api Calls'],
     links: [
       { href: 'https://gr-nspot.vercel.app/today', label: '↗ Live', primary: true },
       { href: 'https://github.com/Bilmpz/Gr-nspot', label: '↗ GitHub', primary: false },
