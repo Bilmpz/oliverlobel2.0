@@ -128,7 +128,7 @@ const PROJECTS = [
     desc: 'Designet og udviklet en moderne, responsiv hjemmeside til Sanne Pedersen, hvor formålet er at give ledere og organisationer adgang til førsteklasses coaching og lederudvikling. Klar visuel kommunikation med fokus på ro, nærvær og lederskab.',
     tags: ['HTML', 'CSS', 'JavaScript', 'WordPress'],
     links: [
-      { href: 'https://sannepedersen.dk/', label: '↗ Live', primary: true },
+      { href: 'https://bilmpz.github.io/SannePedersen/index.html', label: '↗ Live', primary: true },
       { href: 'https://github.com/Bilmpz/SannePedersen', label: '↗ GitHub', primary: false },
     ],
   },
