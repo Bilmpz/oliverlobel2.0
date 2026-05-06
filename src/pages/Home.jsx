@@ -108,7 +108,7 @@ export default function Home() {
               <span style={{ color: 'var(--accent)', fontWeight: '700' }}>softwarestuderende</span>
               {' '}med fokus på projekter, der skaber værdi.
             </p>
-              <p className="hero-alias">Mit navn skrives både <strong>Oliver Løbel</strong> og <strong>Oliver Loebel</strong></p>
+              <p className="hero-alias">Mit navn skrives både <strong>Oliver Lobel,</strong> <strong>Oliver Løbel</strong> og <strong>Oliver Loebel</strong></p>
               <div className="hero-ctas">
                 <Link to="/kontakt" className="btn btn-d">Skriv til mig</Link>
                 <Link to="/portfolio" className="btn btn-o">Se projekter →</Link>
