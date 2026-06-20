@@ -9,7 +9,7 @@ const PROJECTS = [
     date: '2026',
     title: 'Nuværende Arbejde',
     desc: 'Jeg er pt. ansat i en virksomhed, hvor jeg er med til at udvikle interne systemer, der både understøtter den daglige drift og fungerer som brugerplatform. Du kan læse mere om det på min LinkedIn.',
-    tags: ['JavaScript', 'TypeScript', 'React', 'Supabase'],
+    tags: ['C', 'Python', 'React', 'SQL'],
     links: [
       { href: 'https://www.linkedin.com/in/oliver-l%C3%B8bel-6a7435369/', label: '↗ LinkedIn', primary: true },
     ],
