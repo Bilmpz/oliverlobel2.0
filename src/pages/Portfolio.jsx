@@ -5,6 +5,16 @@ import Reveal from '../components/Reveal'
 
 const PROJECTS = [
   {
+    img: '/ba-logo.svg',
+    date: '2026',
+    title: 'Nuværende Arbejde',
+    desc: 'Jeg er pt. ansat i en virksomhed, hvor jeg er med til at udvikle interne systemer, der både understøtter den daglige drift og fungerer som brugerplatform. Du kan læse mere om det på min LinkedIn.',
+    tags: ['JavaScript', 'TypeScript', 'React', 'Supabase'],
+    links: [
+      { href: 'https://www.linkedin.com/in/oliver-l%C3%B8bel-6a7435369/', label: '↗ LinkedIn', primary: true },
+    ],
+  },
+  {
     img: '/Kvitra.png',
     date: 'April 2026',
     title: 'Kvitra – Under udvikling',

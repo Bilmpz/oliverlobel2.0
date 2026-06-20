@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" role="img" aria-label="BA Technologies">
+  <rect x="0" y="0" width="500" height="500" rx="70" fill="#0a1d3a"/>
+
+  <!-- Left glyph (B) -->
+  <rect x="86"  y="118" width="42"  height="264" rx="8" fill="#ffffff"/>
+  <rect x="128" y="118" width="104" height="42"  rx="8" fill="#ffffff"/>
+  <rect x="190" y="118" width="42"  height="153" rx="8" fill="#ffffff"/>
+  <rect x="128" y="229" width="104" height="42"  rx="8" fill="#ffffff"/>
+  <rect x="190" y="229" width="42"  height="153" rx="8" fill="#ffffff"/>
+  <rect x="128" y="340" width="104" height="42"  rx="8" fill="#ffffff"/>
+
+  <!-- Right glyph (A) -->
+  <rect x="372" y="118" width="42"  height="264" rx="8" fill="#ffffff"/>
+  <rect x="268" y="118" width="104" height="42"  rx="8" fill="#ffffff"/>
+  <rect x="268" y="118" width="42"  height="153" rx="8" fill="#ffffff"/>
+  <rect x="268" y="229" width="104" height="42"  rx="8" fill="#ffffff"/>
+  <rect x="268" y="229" width="42"  height="153" rx="8" fill="#ffffff"/>
+  <rect x="268" y="340" width="104" height="42"  rx="8" fill="#ffffff"/>
+
+  <!-- Accent blocks -->
+  <rect x="190" y="229" width="42" height="42" rx="6" fill="#f26a21"/>
+  <rect x="268" y="229" width="42" height="42" rx="6" fill="#19b5e8"/>
+</svg>
