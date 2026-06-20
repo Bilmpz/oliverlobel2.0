@@ -15,6 +15,17 @@ const PROJECTS = [
     ],
   },
   {
+    img: '/pngegg.png',
+    date: '24 Maj. 2026',
+    title: '2. Semester projekt',
+    desc: ' Et P2-projekt udviklet på Aalborg Universitet København. AAU Study Buddy er en webapplikation, hvor studerende kan finde læsemakkere på deres fag, oprette studieopslag, tilmelde sig fag-grupper og sende beskeder til hinanden.',
+    tags: ['JavaScript'],
+    contain: true,
+    links: [
+      { href: 'https://github.com/Bilmpz/P2-Projekt', label: '↗ GitHub', primary: false },
+    ],
+  },
+  {
     img: '/Kvitra.png',
     date: 'April 2026',
     title: 'Kvitra – Under udvikling',
@@ -118,7 +129,7 @@ const PROJECTS = [
     tags: ['C'],
     contain: true,
     links: [
-      { href: 'https://github.com/Bilmpz/1.-Semester-projekt---AAU-CPH', label: '↗ GitHub', primary: false },
+      { href: 'https://github.com/Bilmpz/1.Semesterprojekt', label: '↗ GitHub', primary: false },
     ],
   },
   {
